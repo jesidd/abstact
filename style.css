@@ -108,15 +108,46 @@ button{
 }
 
 .cuerpo-pagina{
+    padding: 14% 5%;
+    box-sizing: border-box;
+}
+
+.cuerpo-pagina ul{
     display: flex;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 23px;
+    margin-bottom: 6%;
 }
 
 .cuerpo-pagina li{
-    margin: 5% 4%;
+    width: 40%;
+    margin: 0 6.5% 0 6.5%;
 }
 
-
-#imagen-branch,#imagen-cuenta{
-    width: 5em;
+.imagenes-cuerpo-pagina{
+    width: 3.6em;
+    margin: 0 5% 30% 0;
     float: left;
+}
+
+.cuerpo-pagina li h3{
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.cuerpo-pagina li p{
+    margin-bottom: 4%;
+}
+
+.cuerpo-pagina li a{
+    margin-top: 3px;
+    font-size: 20px;
+    text-decoration: none;
+    outline: 1px;
+    color: #4C5FD5;
+}
+
+.cuerpo-pagina li a:hover{
+    text-decoration: underline;
 }
