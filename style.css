@@ -5,6 +5,7 @@ body{
 .encabezado{
     display: flex;
     padding: 2% 7%;
+    justify-content: space-between;
     background: #000000;
     width: 86%;
     align-items: center;
@@ -36,8 +37,6 @@ body{
 
 .botones-encabezado{
     display: flex;
-    position: absolute;
-    left: 65%;
     align-items: center;
     gap: 0.7em;
 }
