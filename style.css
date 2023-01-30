@@ -213,3 +213,20 @@ h5{
     font-size: 20px;
     line-height: 28px;
 }
+
+.boton-ayuda{
+    display: flex;
+    position: fixed;
+    bottom: 2%;
+    left: 90%;
+    z-index: 999;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.boton-ayuda button{
+    padding: 1em 3em;
+    border-radius: 32px;
+    background: #4C5FD5;
+    border-color: #4C5FD5;
+}
