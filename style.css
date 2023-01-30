@@ -49,7 +49,7 @@ button{
     background: none;
     color: #fff;
     border-radius: 10px;
-    
+    cursor: pointer;
 }
 
 .boton-submit-req{
